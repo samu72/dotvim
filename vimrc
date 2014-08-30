@@ -1,3 +1,6 @@
+" Pathogen plugin manager
+execute pathogen#infect()
+
 "Cororscheme
 set t_Co=256
 let g:zenburn_old_Visual=1
@@ -32,9 +35,6 @@ set smarttab
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
-
-" Pathogen plugin manager
-execute pathogen#infect()
 
 " vim-airline
 let g:airline_theme='tomorrow'
