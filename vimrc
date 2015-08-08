@@ -21,6 +21,7 @@ set number
 set nocompatible
 set showcmd
 set wildmenu
+set mouse=a
 
 " Search stuff
 set ignorecase
