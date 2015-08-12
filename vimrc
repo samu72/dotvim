@@ -41,3 +41,9 @@ set tabstop=4
 let g:airline_theme='tomorrow'
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#buffer_nr_show=1
+
+"cygwin -- block cursor
+let &t_ti.="\e[1 q"
+let &t_SI.="\e[5 q"
+let &t_EI.="\e[1 q"
+let &t_te.="\e[0 q"
